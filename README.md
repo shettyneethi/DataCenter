@@ -1,4 +1,4 @@
-# Lab 2 - Convert WordCount to UrlCount
+#UrlCount
 
 In this lab, you're going to take an existing Hadoop application that is extensively described in the [Hadoop tutorial](http://hadoop.apache.org/docs/stable2/hadoop-mapreduce-client/hadoop-mapreduce-client-core/MapReduceTutorial.html#Example:_WordCount_v1.0). You can either approach the lab as native Java-hadoop application or use the [Hadoop streaming API](https://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/) to implement the lab in Python.
 
