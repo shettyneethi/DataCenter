@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.lab6";
+option java_outer_classname = "Lab6Proto";
+option objc_class_prefix = "HLW";
+
+package lab6;
+
+service lab6GRPC {
+  rpc add(addMsg) returns (addReply) {}
+  rpc image(imageMsg) returns (imageReply) {}
+}
+
+message addMsg {
+  int32 a = 1;
+  int32 b = 2;
+}
+
+message addReply {
+  int32 sum = 1;
+}
+
+message imageMsg {
+    bytes img=1;
+}
+
+message imageReply {
+	int32 width = 1;
+	int32 height = 2;
+}
